@@ -3,8 +3,8 @@
 -- Configura wifi
 wifi.setmode(wifi.STATION)
 station_cfg={}
-station_cfg.ssid="Skull"
-station_cfg.pwd="07121991"
+station_cfg.ssid="Rede WIFI"
+station_cfg.pwd="qualasenhadowifi"
 wifi.sta.config(station_cfg)
 
 -- register event callbacks for WiFi events
